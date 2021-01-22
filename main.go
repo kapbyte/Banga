@@ -28,8 +28,8 @@ type problem struct {
 	a string
 }
 
-func parseLines(lines [][] string) []problem {
-	
+func parseLines(lines [][]string) []problem {
+
 }
 
 func exit(msg string) {
