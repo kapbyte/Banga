@@ -28,6 +28,7 @@ func main() {
 	timer := time.NewTimer(time.Duration(*timeLimit) * time.Second)
 	<-timer.C
 
+	// Implement channel
 	correct := 0
 	for i, p := range problems {
 		fmt.Printf("Problem #%d: %s = \n", i+1, p.q)
